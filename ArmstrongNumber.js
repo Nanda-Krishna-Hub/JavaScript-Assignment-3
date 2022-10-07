@@ -7,7 +7,6 @@ while(n>0){
     n = parseInt(n/10);
     result += (digit*digit*digit);
 }
-console.log(result)
 if(number == result){
     console.log(`${number} is Armstrong number`);
 }
